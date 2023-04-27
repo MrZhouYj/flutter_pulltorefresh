@@ -63,7 +63,7 @@ class ClassicHeader extends RefreshIndicator {
     double height: 60.0,
     Duration completeDuration: const Duration(milliseconds: 600),
     this.outerBuilder,
-    this.textStyle: const TextStyle(color: Colors.grey),
+    this.textStyle: const TextStyle(color: Colors.grey, fontSize: 13),
     this.releaseText,
     this.refreshingText,
     this.canTwoLevelIcon,

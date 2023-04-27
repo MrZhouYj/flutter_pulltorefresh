@@ -86,7 +86,7 @@ class RefreshLocalizations {
     if (values.containsKey(locale.languageCode)) {
       return values[locale.languageCode];
     }
-    return values["en"];
+    return values["zh"];
   }
 
   static const RefreshLocalizationsDelegate delegate =
