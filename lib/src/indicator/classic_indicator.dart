@@ -97,7 +97,7 @@ class _ClassicHeaderState extends RefreshIndicatorState<ClassicHeader> {
   Widget _buildText(mode) {
     RefreshString strings =
         RefreshLocalizations.of(context)?.currentLocalization ??
-            EnRefreshString();
+            ChRefreshString();
     return Text(
         mode == RefreshStatus.canRefresh
             ? widget.releaseText ?? strings.canRefreshText!
@@ -253,7 +253,7 @@ class _ClassicFooterState extends LoadIndicatorState<ClassicFooter> {
   Widget _buildText(LoadStatus? mode) {
     RefreshString strings =
         RefreshLocalizations.of(context)?.currentLocalization ??
-            EnRefreshString();
+            ChRefreshString();
     return Text(
         mode == LoadStatus.loading
             ? widget.loadingText ?? strings.loadingText!

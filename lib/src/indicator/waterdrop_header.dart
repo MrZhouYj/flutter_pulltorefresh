@@ -124,7 +124,7 @@ class _WaterDropHeaderState extends RefreshIndicatorState<WaterDropHeader>
               ),
               Text(
                 (RefreshLocalizations.of(context)?.currentLocalization ??
-                        EnRefreshString())
+                        ChRefreshString())
                     .refreshCompleteText!,
                 style: TextStyle(color: Colors.grey),
               )
@@ -144,7 +144,7 @@ class _WaterDropHeaderState extends RefreshIndicatorState<WaterDropHeader>
               ),
               Text(
                   (RefreshLocalizations.of(context)?.currentLocalization ??
-                          EnRefreshString())
+                          ChRefreshString())
                       .refreshFailedText!,
                   style: TextStyle(color: Colors.grey))
             ],
